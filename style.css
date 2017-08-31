@@ -264,11 +264,17 @@ header .navbar {
 	overflow: hidden;
 
 }
+<<<<<<< HEAD
+.single-team img{
+	border: 1px solid #f20101;
+}
+=======
 
 .single-team img:hover {
   transform: rotate(-15deg)
 }
 
+>>>>>>> f3483a1175be372f986cffe461011e16a8ae0522
 .single-team h3 {
 	padding: 10px 0 5px;
 }
