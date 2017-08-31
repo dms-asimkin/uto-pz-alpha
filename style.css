@@ -260,7 +260,9 @@ header .navbar {
 	overflow: hidden;
 
 }
-
+.single-team img{
+	border: 1px solid #f20101;
+}
 .single-team h3 {
 	padding: 10px 0 5px;
 }
