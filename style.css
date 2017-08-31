@@ -339,6 +339,11 @@ header .navbar {
 	overflow: hidden;
 }
 
+.single-team img {
+	border-radius: 10px;
+}
+
+
 /********** skill area ********/
 .skill-heading h3 {
 	font-size: 36px;
