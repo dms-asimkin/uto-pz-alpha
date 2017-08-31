@@ -25,12 +25,12 @@ img {
 
 .fix {
 	overflow: hidden
-}
+}  
 
 p {
 	font-family: 'Lato', sans-serif;
 }
-
+  
 h1,
 h2,
 h3,
@@ -150,8 +150,9 @@ header .navbar {
 }
 
 .home-text span {
-	color: #f20101;
+	color: #0000ff;
 	font-weight: 700;
+  border-bottom: 5px solid #f00;
 }
 
 .overlay {
@@ -170,7 +171,7 @@ header .navbar {
 .carousel-indicators li {
 	width: 110px;
 	height: 10px;
-	background-color: #fff;
+	background-color: green;
 	border: 1px solid;
 	border-radius: 0;
 }
@@ -179,6 +180,7 @@ header .navbar {
 	background-color: #000;
 	width: 110px;
 	height: 10px;
+  background: #f00;
 }
 
 .carousel-indicators {
@@ -207,15 +209,17 @@ header .navbar {
 
 .single-item {
 	border: 2px solid #f20101;
+  border-color: #0f0;
 	margin-top: 50px;
 	transition: all 0.6s;
+  padding: 0;
 }
 
 .single-item i {
 	font-size: 80px;
-	color: #f20101;
+	color: blue ;
 	padding: 15px;
-
+  opacity: 0.5;
 }
 
 .single-item h4 {
@@ -229,7 +233,7 @@ header .navbar {
 
 .single-item a.btn-red {
 	margin-bottom: 20px;
-	padding: 6px 10px;
+	padding: 6px 10px; 
 	background-color: #f20101;
 	border-radius: 0;
 	font-weight: 700;
@@ -260,9 +264,17 @@ header .navbar {
 	overflow: hidden;
 
 }
+<<<<<<< HEAD
 .single-team img{
 	border: 1px solid #f20101;
 }
+=======
+
+.single-team img:hover {
+  transform: rotate(-15deg)
+}
+
+>>>>>>> f3483a1175be372f986cffe461011e16a8ae0522
 .single-team h3 {
 	padding: 10px 0 5px;
 }
@@ -332,6 +344,11 @@ header .navbar {
 	border-bottom: 7px solid #f20101;
 	overflow: hidden;
 }
+
+.single-team img {
+	border-radius: 10px;
+}
+
 
 /********** skill area ********/
 .skill-heading h3 {
@@ -737,4 +754,16 @@ footer {
 
 .footer-social i:hover {
 	color: #000000;
+}
+
+a.navbar-brand:hover img {
+  transform: rotate(-2deg);
+}
+
+.navbar-header button {
+  background: #f00;
+}
+
+#gallery p {
+  padding: 0 5px;
 }
