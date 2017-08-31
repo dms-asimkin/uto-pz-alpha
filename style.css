@@ -217,7 +217,7 @@ header .navbar {
 
 .single-item i {
 	font-size: 80px;
-	color: #1e58fe;
+	color: #1e58fe ;
 	padding: 15px;
   opacity: 0.5;
 }
@@ -233,7 +233,7 @@ header .navbar {
 
 .single-item a.btn-red {
 	margin-bottom: 20px;
-	padding: 6px 10px;
+	padding: 6px 10px; 
 	background-color: #f20101;
 	border-radius: 0;
 	font-weight: 700;
